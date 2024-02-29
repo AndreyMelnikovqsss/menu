@@ -5,5 +5,5 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('menu.urls')),
-    # Добавьте другие URL-маршруты по необходимости
+
 ]
