@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load menu_tags static %}
+{% load menu_tags %}
+
+<html>
+<head>
+    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <h1>Menu</h1>
+
+    {% draw_menu 'main_menu' %}
+
+</body>
+</html>

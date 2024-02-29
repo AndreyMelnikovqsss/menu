@@ -1,0 +1,23 @@
+/* Ваш файл стилей, например, menu/static/css/menu.css */
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-item.active {
+    font-weight: bold; /* или любой другой стиль для активного элемента */
+}
+
+.submenu {
+    display: none;
+    list-style-type: none;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
